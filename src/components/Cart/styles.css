@@ -1,0 +1,30 @@
+.cart-container{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 20%;
+    
+}
+
+.contButt{
+    margin-right: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.total{
+    margin-top: 1rem;
+}  
+.seguirComprando{
+    list-style: none;
+    text-decoration: none;
+    border: 2px solid #191919;
+    background-color: #F5E663;
+}
+.emitirCompra{
+
+}
