@@ -15,7 +15,10 @@ const DarkTheme = () => {
     }, [theme]);
   return (
     <div className={`App ${theme}` }>
-        <button onClick={toggleTheme} className='DarkThemeButton'>Toggle Theme</button>
+        <button onClick={toggleTheme} className='DarkThemeButton'>Cambiar Tema</button>
+        <i className="fa-solid fa-lightbulb"></i>
+        <i class="fa-solid fa-arrow-right"></i>
+        <i class="fa-regular fa-lightbulb"></i>
     </div>
   )
 }
