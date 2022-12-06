@@ -1,0 +1,50 @@
+
+.textCont{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textCont p{
+    margin-top: 5rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.textCont i{
+    margin-top: 2rem;
+    font-size: 50px;
+    color: #F5E663;
+    background-color:#F6F6F6 ;
+    border-radius: 50px;
+}
+
+.rotate-center {
+	-webkit-animation: rotate-center 6s linear infinite both;
+	        animation: rotate-center 6s linear infinite both;
+}
+
+
+ @-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  

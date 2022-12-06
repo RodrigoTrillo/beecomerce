@@ -1,0 +1,61 @@
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    
+}
+
+.inputCont{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rightInputs{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.submitButtonCont{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.submitButton{
+    text-decoration: none;
+    border: 2px solid #191919;
+    padding: .5rem;
+    border-radius: 8px;
+    background-color: #F5E663;
+    color: #191919;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 400ms;
+}
+
+.submitButton:hover{
+    background-color: #8D918B;
+    border: 3px solid #F5E663;
+}

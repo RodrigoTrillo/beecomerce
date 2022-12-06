@@ -12,21 +12,23 @@
     align-items: center;
     margin: .5rem;
     padding: 1rem;
-    width: 300px;
+    width: 250px;
     height: 400px;
     background: #f5f5f5;
     position: relative;
     overflow: visible;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     margin-top: 5rem;
-    
+    color: #191919;
+    border: 3px solid #F5E663;
+    border-radius: 6px;
 }
 
 .card-image {
     object-fit: contain;
     height: 40%;
     width: 100%;
-    border-radius: .5rem;
+    border-radius: 10px;
     transition: .3s ease;
 
 }

@@ -1,0 +1,25 @@
+.dark {
+    background-color: #333;
+    color: #fff;
+    }
+.light {
+    background-color: #fff;
+    color: #333;
+    }
+
+.DarkThemeButton{
+    margin: auto;
+    margin-left: 15rem;
+    margin-top: 40px;
+    background-color: #191919;
+    color: #F5E663;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: .8px;
+    padding: 2px;
+}
+
+.DarkThemeButton:hover{
+    background-color: #364652;
+    border: 3px solid #F5E663;
+}

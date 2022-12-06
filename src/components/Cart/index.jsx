@@ -43,7 +43,7 @@ const Cart = () => {
       Total: $ {totalPrice()}
     </p>
     <Link to='/' className='seguirComprando'>Seguir Comprando</Link>
-    <Link to='/fin' onClick={handleClick} className='emitirCompra'>Emitir Compra</Link>
+    <Link to='/form' onClick={handleClick} className='emitirCompra'>Emitir Compra</Link>
     </div>
     </>
     
